@@ -3,7 +3,7 @@
     padding:0;
   }
   body {
-    background-color:#0c5492;
+    background-color:#000000;
     font-family: 'Raleway', sans-serif;
   }
   #ribbon {
@@ -21,7 +21,6 @@
     width:80%;
     margin:5% auto;
     background-color:black;
-    box-shadow: -2px -2px 5px white,2px -2px 5px white;
   }
   #container > nav {
     width:100%;
@@ -31,11 +30,10 @@
   #logo {
     line-height:60px;
     font-size:30px;
-    padding: 0 50px;
+    padding: 0px;
     color: white;
     width:40%;
     letter-spacing:2px;
-    text-shadow:2px 2px 5px;
   }
   #container > nav > ul {
     margin:0;
@@ -64,8 +62,8 @@
       color:white;
   }
   #container > nav > ul > li:hover {
-    border-bottom: 2px solid white;
-    background-color: #0088ff;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: #777777;
   }
   #container > nav > ul > .dropdown:hover {
     border-bottom:none;
