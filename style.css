@@ -6,11 +6,17 @@
     background-color:#1f1f1f;
     font-family: 'Raleway', sans-serif;
   }
+
+  #container {
+    position:auto;
+    width:80%;
+    margin:1%;
+    background-color:#1f1f1f;
+  }
   #container > nav {
     width:100%;
     display:flex;
     max-height:60px;
-    margin: 1%;
   }
   #logo {
     line-height:60px;
@@ -19,7 +25,6 @@
     color: white;
     width:40%;
     letter-spacing:2px;
-    
   }
   #container > nav > ul {
     margin:0;
@@ -102,3 +107,4 @@
     padding : 5px;
       color:black;
   }
+
