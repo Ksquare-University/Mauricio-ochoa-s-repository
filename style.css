@@ -148,6 +148,10 @@
     border-radius: .25rem;
 }
 
+.card-text{
+  color: black;
+}
+
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -178,6 +182,10 @@
   font-weight: 300;
   padding-left: 250px;
   padding-right: 250px;
+}
+
+.Content > .Description{
+  color: aliceblue;
 }
 
 
