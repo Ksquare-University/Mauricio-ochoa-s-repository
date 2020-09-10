@@ -2,6 +2,9 @@
     margin:0;
     padding:0;
   }
+  
+
+
   body {
     background-color:#1f1f1f;
     font-family: 'Raleway', sans-serif;
@@ -18,6 +21,12 @@
     display:flex;
     max-height:60px;
   }
+  #container > nav > h1{
+    margin-top: 23px;
+    margin-left: -150px;
+    font-size: medium;
+  }
+
   #logo {
     line-height:60px;
     font-size:30px;
@@ -107,4 +116,36 @@
     padding : 5px;
       color:black;
   }
+
+  .img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .col-md-4 {
+    box-sizing: border-box;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: auto;
+    width: 100%;
+    padding-top: 90px;
+    
+}
+
+.col-md-5 {
+  box-sizing: border-box;
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  position: auto;
+  width: 100%;
+  padding-top: 90px;
+  
+}
+
 
