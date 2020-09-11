@@ -7,11 +7,14 @@ padding:0;
 vertical-align:baseline;
 }
 
+
+
+
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #1f1f1f; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+html, body {background: #1f1f1f; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: wheat;}
 
 .clear {clear: both;}
 
@@ -19,7 +22,7 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: ##8a8383;;
+	color: #f6f1f1;;
 }
 
 #cv {
