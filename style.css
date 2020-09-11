@@ -10,9 +10,10 @@
     font-family: 'Raleway', sans-serif;
   }
 
+
   #container {
     position:auto;
-    width:100%;
+    width:80%;
     margin:1%;
     background-color:#1f1f1f;
   }
@@ -20,6 +21,7 @@
     width:100%;
     display:flex;
     max-height:60px;
+    position: relative;
   }
   #container > nav > h1{
     margin-top: 23px;
@@ -131,7 +133,7 @@
 }
 
 .mb-4, .my-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1.5rem;
 }
 
   .card {
@@ -161,18 +163,9 @@
   margin-left: -15px;
 }
 
-  .col-md-4 {
-    position: relative;
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-    position: auto;
-    width: 100%;
-    padding-top: 30px;
-    
-}
 
-.col-md-3 {
+
+.col-md-3, .col-md-4 {
   padding-top: 70px;
   
 }
@@ -184,17 +177,19 @@
   margin-bottom: 1rem;
   font-size: 2.5rem;
   font-weight: 300;
-  padding-left: 250px;
-  padding-right: 250px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .Content > .Description{
   color: aliceblue;
+  text-align: center;
+  text-size-adjust: ;
 }
 
 .mr-3-image{
- height:  150px;
- width: 150px;
+ height:  250px;
+ width: 250px;
  margin-left: 10px;
 
 }
@@ -210,10 +205,20 @@
   flex: 1;
   margin-left: 50px;
 }
+.currentJobTitle > h3 {
+  position: relative;;
 
-@media(min-width: 768px){
+}
+
+@media(max-width: 1200px){
   #container{
-    background-size: auto;
+    display:none;
+  }
+
+  .Content > p{
+    display: inline;
+    font-size: 30px;
+    margin-left: auto;
   }
 }
 

@@ -8,6 +8,11 @@ vertical-align:baseline;
 }
 
 
+#rectangle {
+	width: 200px;
+	height: 100%;
+	background: rgb(189, 185, 185);
+  }
 
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
@@ -443,3 +448,5 @@ section:last-child {
 	  height: auto;
 	}
   }
+
+  
