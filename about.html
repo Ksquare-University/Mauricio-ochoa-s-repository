@@ -7,8 +7,9 @@
         <meta charset="utf-8">
         <title> About Me</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link type="text/css" rel="stylesheet" href='styles.css'>
         <link rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="style_about.css">
+        <link type="text/css" rel="stylesheet" href='styles.css'>
     </head>
     <body>
         <!--nav bar container starts here-->
@@ -52,63 +53,204 @@
           </nav>
         </div>
         <!--Nav bar ends here-->
-        <div id="cv">
-            <div class="details">
-                <div id="headshot">
-                    <img src='static/headshot.jpg' />
-                </div>
-                
-                <div id="basics">
-                    <h1>Mauricio Ochoa E.</h1>
-                    <h2>Mechatronics Engineer</h2>
-                </div>
-                
-                <div>
-                    <ul>
-                        <li>e: <a href="mailto:mauricio.ochoaen@udlap.mx" target="_blank">mauricio.ochoaen@udlap.mx</a></li>
-                        <li>w: <a href="http://mauriciooeresume.herokuapp.com/">http://mauriciooeresume.herokuapp.com/</a></li>
-                        <li>p: 012224238298</li>
-                    </ul>
-                </div>
-    
-                <div id="mainArea">
-                    <section>
-                        <article>
-                            <div class="Title">
-                                <h1>Personal Profile</h1>
-                            </div>
-                            
-                            <div class="Content about">
-                                <p>Mechatronics Engineer, with interest for cybersecurity, software development and app development. 
-                                    I´ve always wanted to be part of something bigger than myself, that will make a big impact in society.</p>
-                            </div>
-                        </article>
-                    </section>
-    
-                    <section>
+        <div class="media" >
+            <div id="headshot">
+            <img class="quickFade"  src="static/headshot-removebg-preview.png" alt="Generic placeholder image">
+            </div>
+            <div class="media-body">
+             <div id="mainArea">
+                <section>
+                    <article>
                         <div class="Title">
-                            <h1>Currently employed at</h1>
+                            <h1>Personal Profile</h1>
                         </div>
                         
-                        <div class="Content">
+                        <div>
+                            <p>I am a mechatronics engineer that has a passion for sports, cibersecurity, and music.</p>
+                        </div>
+                    </article>
+                </section>
+
+                <section>
+                    <div class="sectionTitle" id="mainArea">
+                        <h1>Currently employed at</h1>
+                    </div>
+                        <article>
+                            <div>
+                            <h1>KSQUARE University<img class="mr-3-image" src="static/ksquare-removebg-preview.png" alt="Generic placeholder image"></h1>
+                            <p class="workingDetails">AUGUST 2020 - Present</p>
+                            <p>Software Development associate.
+                                pariticipation in NEXT-GEN program in JAVA.
+                            </p>
+                            </div>
+                        </article>
+                </section>
+            
+            
+            </div>
+          </div>
+        </div>
+
+          <body id="top">
+            <div id="cv" class="instaFade">
+                
+                
+                <div id="mainArea" class="quickFade delayFive">
+                    
+                    
+                    <section>
+                        <div class="sectionTitle">
+                            <h1>Work Experience</h1>
+                        </div>
+                        
+                        <div class="sectionContent">
+                            <br/> 
                             <article>
-                                <h2>KSQUARE</h2>
-                                <p class="workingDetails">AUGUST 2020 - Present</p>
-                                <p>Software Development associate.
-                                    pariticipation in NEXT-GEN program in JAVA.
+                                <h2>Grupo RAMA</h2>
+                                <p class="subDetails">January 2020 - Present</p>
+                                <p>Software and Hardware Development internship.
+                                    Complete development of an ANDON like system for the industry using LORA wan Technology. Some participation on the development of a mobile app using react-native. 
                                 </p>
                             </article>
-    
-                            <button type="button" class="btn btn-secondary" href="#2nd page" id = "buttonNext">
-                                <a href="https://github.com">More about me</a>
-                            </button>
+                            <br/>
+                            <article>
+                                <h2>Fiverr.com (Entrepreneur).</h2>
+                                <p class="subDetails">June 2016 - Present</p>
+                                <ul>
+                                <p>Entrepreneur, working remotely with various clients, developing python-based software, some projects include:</p>
+                                <ul>
+                                <p>
+                                <li>Data scraping for analysis and prediction on soccer games using bs4 and pandas</li>
+                                <li>Automation of client’s job using selenium library</li>
+                                <li>GUI for restaurant using pygame</li>
+                            </p>
+                            </ul>
+                            </p>
+                            </article>
+                            <br/>
+                            <article>
+                                <h2>MAGNA Autotek Industrial de Mexico.</h2>
+                                <p class="subDetails">May 2019 - November 2019</p>
+                                <p>Internship as a Control Engineer, where I solved major issues in laser cells by programming PLC's.
+                                    Automatized the notification of changes made in presses and laser cells with Excel.</p>
+                            </article>
+                            <br/>
+                            <article>
+                                <h2>LEGO EDUCATION</h2>
+                                <p class="subDetails">November 2018 - July 2019</p>
+                                <p>Earned the position for robotics mentor for kids and adults, increasing the profit of the Bricks school by 50% </p>
+                            </article> 
                         </div>
-        <div id="2nd page">
-            <div class="details">
-                
+                        <div class="clear"></div>
+                    </section>
+                    
+                    
+                    <section>
+                        <div class="sectionTitle">
+                            <h1>Key Skills</h1>
+                        </div>
+                        
+                        <div class="sectionContent">
+                            <ul class="keySkills">
+                                <li>• Python</li>
+                                <li>• Java</li>
+                                <li>• JavaScript</li>
+                                <li>• C and C# based programs</li>
+                                <li>• I speak Spanish, English and some German</li>
+                                <li>• Android Studio</li>
+                                <li>• HTML and CSS</li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+                    
+                    <section>
+                        <div class="sectionTitle">
+                            <h1>Social Skills</h1>
+                        </div>
+                        
+                        <div class="sectionContent">
+                            <ul class="keySkills">
+                                <li>• Excellent communication</li>
+                                <li>• Great team leader</li>
+                                <li>• Fast Learner</li>
+                                <li>• Entrepreneur</li>
+                                <li>• Self-improvement</li>
+                                <li>• Worked Remotely</li>
+                                <li>• Honesty</li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+                    
+            
+                    
+                    <section>
+                        <div class="sectionTitle">
+                            <h1>Education</h1>
+                        </div>
+                        
+                        <div class="sectionContent">
+                            <article>
+                                <h2>University of The Americas Puebla (UDLAP)</h2>
+                                <p>Bachelor’s degree in Mechatronics Engineering</p>
+                                <p class= "subDetails">2015 - Present</p>
+                            </article>
+                            <br/>
+                            <article>
+                                <h2>Anahuac University</h2>
+                                <p>Diploma in Cybersecurity</p>
+                                <p class = "subDetails">2020 - Present</p>	
+                            </article>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+            
+                    <section>
+                        <div class="sectionTitle">
+                            <h1>Leadership</h1>
+                        </div>
+                        
+                        <div class="sectionContent">
+                            <br/> 
+                            <article>
+                                <h2>Honor's Program</h2>
+                                <p class="subDetails">August 2016 - Present</p>
+                                <p>Due to high grades, I earned one of the few spots of the honors program at Universidad de las Americas Puebla </p>
+                            </article>
+                            <br/>
+                            <article>
+                                <h2>Robotics team president</h2>
+                                <p class="subDetails">August 2017 - August 2019</p>
+                                <p>Elected president of the Robotics team of the university, two years in a row.</p>
+                            </article>
+                            <br/>
+                            <article>
+                                <h2>Treasurer of the mechatronics student committee</h2>
+                                <p class="subDetails">August 2018 - May 2019</p>
+                                <p>As part of the student committee I ensured that the program was well financed, enriching it by $10000 MXN</p>
+                            </article>
+                            <br/> 
+                            <article>
+                                <h2>MAGNA scholarship</h2>
+                                <p class="subDetails">August 2015 - August 2019</p>
+                                <p>4th time winner of the MAGNA International Scholarship</p>
+                            </article>
+                            <br/> 
+                            <article>
+                                <h2>IEEE</h2>
+                                <p class="subDetails">August 2018 - January 2020</p>
+                                <p>Member of the IEEE student ramification in Puebla Mexico</p>
+                            </article>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+                    <button type="button" class="btn btn-secondary" href="#2nd page" id = "buttonNext">
+                        <a href="https://github.com/MauOchoa">More about me</a>
+                    </button>
+                    
+                </div>
             </div>
-    
-        </div>
 
 
 

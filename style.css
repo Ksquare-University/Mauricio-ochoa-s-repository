@@ -188,6 +188,23 @@
   color: aliceblue;
 }
 
+.mr-3-image{
+ height:  150px;
+ width: 150px;
+ margin-left: 10px;
 
+}
+
+.mr-3{
+  height: 300px;
+  width: 200px;
+  border-radius: 15px;
+  margin-right: 100px;
+}
+
+.media-body {
+  flex: 1;
+  margin-left: 50px;
+}
 
 
