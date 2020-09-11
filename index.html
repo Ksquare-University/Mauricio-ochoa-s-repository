@@ -1,77 +1,117 @@
 <!DOCTYPE html>
-<html>
 <head>
-<title>Mauricio Ochoa Escandon</title>
-
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="The Curriculum Vitae of Mauricio Ochoa."/>
-<meta charset="UTF-8"> 
-
-<link type="text/css" rel="stylesheet" href='style.css'>
-
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <title> Mauiricio Ochoa Resume page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body id="top">
-    <div id="cv">
-        <div class="details">
-            <div id="headshot">
-                <img src='static/GITHUB.png' />
-            </div>
-            
-            <div id="basics">
-                <h1>Mauricio Ochoa E.</h1>
-                <h2>Mechatronics Engineer</h2>
-            </div>
-            
-            <div>
-                <ul>
-                    <li>e: <a href="mailto:mauricio.ochoaen@udlap.mx" target="_blank">mauricio.ochoaen@udlap.mx</a></li>
-                    <li>w: <a href="http://mauriciooeresume.herokuapp.com/">http://mauriciooeresume.herokuapp.com/</a></li>
-                    <li>p: 012224238298</li>
-                </ul>
-            </div>
 
-            <div id="mainArea">
-                <section>
-                    <article>
-                        <div class="Title">
-                            <h1>Personal Profile</h1>
-                        </div>
-                        
-                        <div class="Content">
-                            <p>Mechatronics Engineer, with interest for cybersecurity, software development and app development. 
-                                I´ve always wanted to be part of something bigger than myself, that will make a big impact in society.</p>
-                        </div>
-                    </article>
-                </section>
+<!--                             ---------------Body Starts here-------------                     -->
+<body>
+    <!--nav bar container starts here-->
+    <div id="container">
 
-                <section>
-                    <div class="Title">
-                        <h1>Currently employed at</h1>
-                    </div>
-                    
-                    <div class="Content">
-                        <article>
-                            <h2>KSQUARE</h2>
-                            <p class="workingDetails">AUGUST 2020 - Present</p>
-                            <p>Software Development associate.
-                                pariticipation in NEXT-GEN program in JAVA.
-                            </p>
-                        </article>
-
-                        <button type="button" class="btn btn-secondary" href="#2nd page" id = "buttonNext">
-                            <a href="https://github.com">More about me</a>
-                        </button>
-                    </div>
-    <div id="2nd page">
-        <div class="details">
-            
+      <nav>
+        <div id="logo">
+          <img src="static/logo_mau-removebg-preview.png" alt="Mau Portafolio">
+          
         </div>
-
+        <h1>Mauricio Ochoa.</h1>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="projects.html">Projects &nbsp;<i class="fa fa-caret-down"></i></a>
+            <div class="dd">
+              <div id="up_arrow"></div>
+            <ul>
+              
+              <li><a href="#">2020</a></li>
+              <li><a href="#">2019</a></li>
+              <li><a href="#">2018</a></li>
+              <li><a href="#">2017</a></li>
+              <li><a href="#">2016</a></li>
+            </ul>
+            </div>
+          </li>
+          <li><a href="#">Contact</a></li>
+          <li class="dropdown"><a href="work.html">Others &nbsp;<i class="fa fa-caret-down"></i> </a>
+           <div class="dd">
+             <div id="u_a_c"><div id="up_arrow"></div></div>
+            <ul>
+              
+              <li><a href="#">SCHOOL</a></li>
+              <li><a href="#">LEADERSHIP</a></li>
+              <li><a href="work.html">WORKING</a></li>
+              <li><a href="#">SKILLS</a></li>
+            </ul>
+            </div>
+        </ul>
+      </nav>
     </div>
+    <!--Nav bar ends here-->
 
+    <!--Banner starts here-->
+    <img class="banner_image" src="static/3D banner_ 2.jpg" style="width:100%">
+    <!--Banner ends here  -->
 
+        <div id="cv">
+            <div class="details">
+                
+                <!--row of thumbnail -->
+                <div class="row">
+                <div class="col-md-4 col-12 ">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="bd-placeholder-img card-img-top" width="100%" height="255px" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" src="static/work_image.jpeg" >
+                      <div class="card-body">
+                        <p class="card-text">Check my working experience and the projects I have developed.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="work.html">Work experience</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="bd-placeholder-img card-img-top" width="100%" height="255px" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" src="static/projects_image.jpg">
+                      <div class="card-body">
+                        <p class="card-text">You want to see my projects and what I have working on click here.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="projects.html">Projects</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="bd-placeholder-img card-img-top" width="100%" height="255"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"  focusable="false" role="img" aria-label="Placeholder: Thumbnail" src="static/about.png"  >
+                      <div class="card-body">
+                        <p class="card-text">click in the button below for more information about me.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="about.html">Profile</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <!-- END OF THE ROW OF THUMBNAILS -->
+      <div class="Content">
+        <p class="Description">"Mechatronics Engineer, with interest for cybersecurity, software development and app development. 
+            I´ve always wanted to be part of something bigger than myself, that will make a big impact in society."</p>
+    </div>
+                
+               
+</body>
 </html>
