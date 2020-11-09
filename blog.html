@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <link rel="shortcut icon" type="image/x-icon" href="images/Mau.ico">
+    <!-----------------------foontawesome for last icons-------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Projects Blog</title>
+    <body>
+        <!------------Navigation------------->
+        <nav>
+            <!----------logo----------------->
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="toggle"></div>
+        </nav>
+        <!--------Body starts here--------->
+        <div>
+            <article>
+                <div class="article-container">
+                <p>Videogame console</p>
+                <p id="blog-text">
+                    This project uses Raspberry Pi zero W to run an image for video games called Retro-pi, 
+                </p>
+                <p id="blog-text">                
+                    This is project is a videogame console that involves 3D printing, electronics and software
+                    this project requires skill, and knowledge with Raspberry pi, (at least worked with it before). Also you will need
+                    knowledge of some basic electronics concepts in order to complete it.
+                </p>
+                <img src="images/printer.jpeg" alt="video game console">
+                </div>
+            </article>
+            <article>
+                <div class="article-container">
+                <p>Videogame console</p>
+                <p id="blog-text">
+                    This project uses Raspberry Pi zero W to run an image for video games called Retro-pi, 
+                </p>
+                <p id="blog-text">                
+                    This is project is a videogame console that involves 3D printing, electronics and software
+                    this project requires skill, and knowledge with Raspberry pi, (at least worked with it before). Also you will need
+                    knowledge of some basic electronics concepts in order to complete it.
+                </p>
+                <img src="images/printer.jpeg" alt="video game console">
+                </div>
+            </article>
+        </div>
+    </body>
+        <!--------------Footer--------------------->
+        <footer>
+            <div class= "social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>Contact me in any of the socail media above or send me an email.</p>
+        </footer>
+        <!-----------nav bar jscript---------------->    
+        <script type="text/javascript" src="js/JQuery.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+            })
+        })
+        </script>
+</html>

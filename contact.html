@@ -6,7 +6,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/Mau.ico">
     <!-----------------------foontawesome for last icons-------->
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-    <title> About Me</title>
+    <title>Contact</title>
     <body>
         <!------------Navigation------------->
         <nav>
@@ -14,14 +14,32 @@
             <img class="logo" src="images/logo.png">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About me</a></li>
+                <li><a href="about.html">About me</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html"class="active">Contact</a></li>
             </ul>
             <div class="toggle"></div>
         </nav>
         <!--------Nav bar ends here--------->
         <div >
-
         </div>
+        <!--------------Footer--------------------->
+        <footer>
+            <div class= "social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>Contact me in any of the socail media above or send me an email.</p>
+        </footer>
+        <!-----------nav bar jscript---------------->    
+        <script type="text/javascript" src="js/JQuery.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+            })
+        })
+        </script>
 </html>
