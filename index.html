@@ -1,106 +1,98 @@
 <!DOCTYPE html>
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html>
     <meta charset="utf-8">
-    <title> Mauiricio Ochoa Resume page</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<!--                             ---------------Body Starts here-------------                     -->
-<body>
-    <!--nav bar container starts here-->
-    <div id="container">
-
-      <nav>
-        <div id="logo">
-          <img src="static/logo_mau-removebg-preview.png" alt="Mau Portafolio">
-          
-        </div>
-        <h1>Mauricio Ochoa.</h1>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About me</a></li>
-          <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="projects.html">Projects &nbsp;<i class="fa fa-caret-down"></i></a>
-          </li>
-          <li><a href="about.html">Contact</a></li>
-          <li class="dropdown"><a href="work.html">Others &nbsp;<i class="fa fa-caret-down"></i> </a>
-           <div class="dd">
-             <div id="u_a_c"><div id="up_arrow"></div></div>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauricio's Personal Profile</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/Mau.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <!-----------------------foontawesome for last icons-------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <body>
+        <section>
+        <!-----------Navigation------------>
+            <nav>
+            <!----------logo----------------->
+            <img class="logo" src="images/logo.png">
             <ul>
-              
-              <li><a href="#">SCHOOL</a></li>
-              <li><a href="#">LEADERSHIP</a></li>
-              <li><a href="work.html">WORKING</a></li>
-              <li><a href="#">SKILLS</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
+            <div class="toggle"></div>
+            </nav>
+            <!---------Home TEXT------------>
+            <div class="text-container">
+                <p>I am</p>
+                <p>Mauricio <br> Ochoa Escandon,</p>
+                <p>Mechatronics engineer <br> with a passion for<br>coding and cybersecurity.</p>
+                <button class="down-cv">Download CV</button>
             </div>
-        </ul>
-      </nav>
-    </div>
-    <!--Nav bar ends here-->
-
-    <!--Banner starts here-->
-    <img class="banner_image" src="static/3D banner_ 2.jpg" style="width:100%">
-    <!--Banner ends here  -->
-    <div class="Content">
-      <p class="Description">"Mechatronics Engineer, with interest for cybersecurity, software development and app development. 
-          I´ve always wanted to be part of something bigger than myself, that will make a big impact in society."</p>
-  </div>
-        <div id="cv">
-            <div class="details">
-                
-                <!--row of thumbnail -->
-                <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                      <img class="bd-placeholder-img card-img-top" width="100%" height="255px" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" src="static/work_image.jpeg" >
-                      <div class="card-body">
-                        <p class="card-text">Check my working experience and the projects I have developed.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="work.html">Work experience</a></button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                      <img class="bd-placeholder-img card-img-top" width="100%" height="255px" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" src="static/projects_image.jpg">
-                      <div class="card-body">
-                        <p class="card-text">You want to see my projects and what I have working on click here.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="projects.html">Projects</a></button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                      <img class="bd-placeholder-img card-img-top" width="100%" height="255"  xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"  focusable="false" role="img" aria-label="Placeholder: Thumbnail" src="static/about.png"  >
-                      <div class="card-body">
-                        <p class="card-text">click in the button below for more information about me.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="about.html">Profile</a></button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            <!------Picture with quote------>
+            <img src="images/computer.png" class="computer" alt="computer">
+        </section>
+        <!-------------About me section---------------->
+        <div class="about-container">
+            <!--About image-->
+            <img src="images/MauPic-removebg-preview.png">
+            <div class="about-text">
+                <p>About Me</p>
+                <p>I am a mechatronics engineer with a passion for cybersecurity, software, and app development.</p>
+                <p> Also, I have a particular interest in Python, Java, and green technologies, as I believe the future depends on us and what we create to stop and reverse climate change,
+                so I am in a constant quest to make everything more efficient.</p>
+                <p>Currently I am a backend developer with some experience in Java.</p>
+                <!--buttons for contact-->
+                <button>Download CV</button>
+                <button>Contact Me</button>
+            </div>
+        </div>
+        <!----------------Main Projects---------------->
+        <div class="projects">
+            <div class="projects-text">
+            <p>More about me</p>
+            <p>Here are the main Projects and experience I have, even you can contact me.</p>
+            </div>
+            <!-------------BOX container--------------->
+            <div class="box-container">
+                <div class="box-1">
+                    <span>1</span>
+                    <p class="heading">About Me</p>
+                    <p class="details">Get to know me a little better by clicking here</p>
+                    <button>More info</button>
                 </div>
+                <div class="box-2">
+                    <span>2</span>
+                    <p class="heading">Main Projects</p>
+                    <p class="details">Check all my projects where I made a videogame console, a 3D printer and more</p>
+                    <button>More info</button>
                 </div>
-                <!-- END OF THE ROW OF THUMBNAILS -->
-      
-                
-               
-</body>
+                <div class="box-3" >
+                    <span>3</span>
+                    <p class="headline">Contact Me</p>
+                    <p class="details">Check out my contact page to send me a message.</p>
+                    <button>More info</button>
+                </div>
+            </div>
+        </div>
+        <!--------------Footer--------------------->
+        <footer>
+            <div class= "social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>Contact me in any of the socail media above or send me an email.</p>
+        </footer>
+    <!-----------nav bar jscript---------------->    
+    <script type="text/javascript" src="js/JQuery.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+        </script>
+    </body>
 </html>

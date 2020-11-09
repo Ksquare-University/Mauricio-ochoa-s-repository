@@ -1,187 +1,106 @@
 <!DOCTYPE html>
 <html>
-    <head>
-            <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <meta charset="utf-8">
-            <title> About Me</title>
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-            <link rel="stylesheet" href="styles.css">
-            <link rel="stylesheet" href="style.css">
-            <link rel="stylesheet" href="style_about.css">
-            
-        </head>
-    </head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <link rel="shortcut icon" type="image/x-icon" href="images/Mau.ico">
+    <!-----------------------foontawesome for last icons-------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title> About Me</title>
     <body>
-        <!--nav bar container starts here-->
-        <div id="container">
-    
-          <nav>
-            <div id="logo">
-              <img src="static/logo_mau-removebg-preview.png" alt="Mau Portafolio">
-              
-            </div>
-            <h1>Mauricio Ochoa.</h1>
+    <section>
+        <!------------Navigation------------->
+        <nav>
+            <!----------logo----------------->
+            <img class="logo" src="images/logo.png">
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About me</a></li>
-              <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="projects.html">Projects &nbsp;<i class="fa fa-caret-down"></i></a>
-              </li>
-              <li><a href="about.html">Contact</a></li>
-              <li class="dropdown"><a href="work.html">Others &nbsp;<i class="fa fa-caret-down"></i> </a>
-               <div class="dd">
-                 <div id="u_a_c"><div id="up_arrow"></div></div>
-                <ul>
-                  
-                  <li><a href="about.html">SCHOOL</a></li>
-                  <li><a href="about.html">LEADERSHIP</a></li>
-                  <li><a href="work.html">WORKING</a></li>
-                  <li><a href="about.html">SKILLS</a></li>
-                </ul>
-                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="cintact.html">Contact</a></li>
             </ul>
-          </nav>
-        </div>
-        <!--Nav bar ends here-->
-
-        
-
-        <div class="media" >
+            <div class="toggle"></div>
+        </nav>
+        <!--------Nav bar ends here--------->
+        <!--------Section of currently employed ------------->
+        <div class="about-header" >
+            <div class="bg-square"></div>
             <div id="headshot">
-            <img class="quickFade"  src="static/headshot-removebg-preview.png" alt="Generic placeholder image">
+                <img src="images/MauPic-removebg-preview.png" alt="Mauricio Ochoa Escandon">
             </div>
-            <div class="media-body">
-             <div id="mainArea" class="quickFade">
-
-                <section>
-                    <div class="sectionTitle" id="mainArea">
-                        <h1>Currently employed at</h1>
-                    </div>
-                        <article>
-                            <div class="currentJob">
-                            <img class="mr-3-image" src="static/ksquare-removebg-preview.png" alt="Generic placeholder image">
-                            <h3 class="currentJobTitle">KSQUARE University</h3>
-                            <p class="subDetails">AUGUST 2020 - Present</p>
-                            <p>Software Development associate.
-                                pariticipation in NEXT-GEN program in JAVA.
-                            </p>
-                            </div>
-                        </article>
-                </section>
-            
-            
+            <div class="aboutpage-text">
+                <p>Currently employed at</p>
+                <p>KSQUARE UNIVERSITY</p>
             </div>
-          </div>
+            <img class="kuLogo" src="images/ksquare-removebg-preview.png" alt="KSQUARE University">
+            <div class="about-works-text">
+                <p>Part of the Next Gen Program as Java associate engineer. <br> Where I made an API to track Covid cases by country.</p>
+                <p>As part of the backend team at Ksquare University <br> I have active participation in the happinnes project.</p>
+            </div>
         </div>
-
-          <body id="top">
-            <div id="cv" class="instaFade">
-                
-                
-                <div id="mainArea" class="quickFade delayFive">
-                    
-                    <section>
-                        <div class="sectionTitle">
-                            <h1>Key Skills</h1>
-                        </div>
-                        
-                        <div class="sectionContent">
-                            <ul class="keySkills">
-                                <li>• Python</li>
-                                <li>• Java</li>
-                                <li>• I speak Spanish, English and some German</li>
-                                <li>• HTML and CSS</li>
-                            </ul>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                    
-                    <section>
-                        <div class="sectionTitle">
-                            <h1>Soft Skills</h1>
-                        </div>
-                        
-                        <div class="sectionContent">
-                            <ul class="keySkills">
-                                <li>• Excellent communication</li>
-                                <li>• Great team leader</li>
-                                <li>• Honesty</li>
-                            </ul>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                    
-            
-                    
-                    <section>
-                        <div class="sectionTitle">
-                            <h1>Education</h1>
-                        </div>
-                        
-                        <div class="sectionContent">
-                            <article>
-                                <h2>University of The Americas Puebla (UDLAP)</h2>
-                                <p>Bachelor’s degree in Mechatronics Engineering</p>
-                                <p class= "subDetails">2015 - Present</p>
-                            </article>
-                            <br/>
-                            <article>
-                                <h2>Anahuac University</h2>
-                                <p>Diploma in Cybersecurity</p>
-                                <p class = "subDetails">2020 - Present</p>	
-                            </article>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-            
-                    <section>
-                        <div class="sectionTitle">
-                            <h1>Leadership</h1>
-                        </div>
-                        
-                        <div class="sectionContent">
-                            <br/> 
-                            <article>
-                                <h2>Honor's Program</h2>
-                                <p class="subDetails">August 2016 - Present</p>
-                                <p>Due to high grades, I earned one of the few spots of the honors program at Universidad de las Americas Puebla </p>
-                            </article>
-                            <br/>
-                            <article>
-                                <h2>Robotics team president</h2>
-                                <p class="subDetails">August 2017 - August 2019</p>
-                                <p>Elected president of the Robotics team of the university, two years in a row.</p>
-                            </article>
-                            <br/>
-                            <article>
-                                <h2>Treasurer of the mechatronics student committee</h2>
-                                <p class="subDetails">August 2018 - May 2019</p>
-                                <p>As part of the student committee I ensured that the program was well financed, enriching it by $10000 MXN</p>
-                            </article>
-                            <br/> 
-                            <article>
-                                <h2>MAGNA scholarship</h2>
-                                <p class="subDetails">August 2015 - August 2019</p>
-                                <p>4th time winner of the MAGNA International Scholarship</p>
-                            </article>
-                            <br/> 
-                            <article>
-                                <h2>IEEE</h2>
-                                <p class="subDetails">August 2018 - January 2020</p>
-                                <p>Member of the IEEE student ramification in Puebla Mexico</p>
-                            </article>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                    <button type="button" class="btn btn-secondary" href="#2nd page" id = "buttonNext">
-                        <a href="https://github.com/MauOchoa">More about me</a>
-                    </button>
-                    
+    </section>
+    <!------------various jobs before--------->
+    <div class="work-container">
+        <div class="about-othersl">
+            <div class="bg-square"></div>
+            <div class="titles">
+                <p>Internship</p>
+                <p>MAGNA Autotek</p>
+            </div>
+            <img class="comLogo" src="images/MagnaLogo-removebg-preview.png" alt="MAGNA Autotek industries.">
+            <p>I was part of the internship program at <br>Magna Autotek Industries <br> working as a control engineer with PLC´s</p>
+            <p>I worked on building interfaces for PLC´s screens</p>
+        </div>
+        <div class="about-othersr">
+            <div class="bg-square"></div>
+            <div class="titles">
+                <p>Internship</p>
+                <p>GRUPO RAMA</p>
+            </div>
+            <img class="comLogo" src="images/ramaLogo.png" alt="Redes de valor Logo">
+            <p>I was part of the internship program at <br>Grupo Rama working as a software and hardware engineer</p>
+            <p>I had some participation in the development for new tecnhologies for the medical industry.</p>
+        </div>   
+    </div>
+    <!--------------School container----------->
+    <div class="school-container">
+            <div class="text">
+                <div id="titles">
+                    <p>School resume</p>
                 </div>
             </div>
-
-
-
-    </body>
+            <div class="school-squaresl"><img src="images/udlap-removebg-preview.png" alt="UDLAP LOGO"></div>
+            <div class="school-titles-UDLAP">
+                <p>Universidad de las Americas Puebla</p>
+                <p>Bachelors degree in mechatronics</p>
+                <p>Graduated as a Mechatronics engineer <br>part of the honors program at Universidad de las Americas Puebla                       </p>
+            </div>
+        </div>
+        <div class="school-container">
+            <div class="school-squaresr"><img src="images/anahuac-removebg-preview.png" alt="ANAHUAC LOGO"></div>
+            <div class="school-titles-ANAHUAC">
+                <p>Anahuac University</p>
+                <p>Cibersecurity diploma</p>
+                <p>Achieved a cibersecurity diploma given by Anahuac University where I learned about how to secure information and other interesting stuff</p>
+            </div>
+        </div>
+    <!--------------Footer--------------------->
+    <footer>
+        <div class= "social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p>Contact me in any of the socail media above or send me an email.</p>
+    </footer>
+    <!-----------nav bar jscript----------------> 
+    <script type="text/javascript" src="js/JQuery.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+        </script>
+    </body> 
 </html>
