@@ -31,6 +31,9 @@ nav{
 nav ul{
     display: flex;
 }
+.toggle{
+    display: none;
+}
 nav ul li a {
     margin: 30px;
     font-family: calibri;
@@ -339,7 +342,7 @@ footer p{
 .kuLogo{
     position: absolute;
     right:25%;
-    top: 45%;
+    top: 25%;
     transform: translate(20%);
 }
 .about-works-text{
@@ -587,10 +590,10 @@ footer p{
     .about-works-text{
         left: 42%;
         top: 70%;
-        transform: translate(-25%, -50%);
+        transform: translate(-15%, -20%);
     }
     .kuLogo{
-        right:25%;
+        right:5%;
         top: 60%;
         transform: translate(0%, -85%);
     }
@@ -642,6 +645,9 @@ footer p{
     }
     .computer{
         display: none;
+    }
+    .toggle {
+        display: block;
     }
     .text-container p:nth-child(1),
     .text-container p:nth-child(2),
@@ -715,6 +721,10 @@ footer p{
         height: auto;
         padding: 30px 0px;
         align-items: center;
+    }
+    .about-text{
+        width: 90%;
+        text-align: center;
     }
 
 }
