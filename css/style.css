@@ -475,49 +475,49 @@ footer p{
     transform: translate(910px, -460px)
 }
 .school-titles-UDLAP p:nth-child(1){
-    width: 350px;
     color: gold;
     font-size: bold;
     font-size: 22px;
     margin-top: 45px;
-    transform: translateX(220px);
 }
 .school-titles-ANAHUAC p:nth-child(1){  
-    width: 200px;
     color: gold;
     font-size: bold;
     font-size: 22px;
     margin-top: 45px;
-    transform: translate(910px, -470px);
 }
 .school-titles-UDLAP p:nth-child(2){
-    margin-top: 20px;
-    transform: translateX(220px);
     font-size: 20px;
     color: wheat;
-    width: 350px;
 }
 .school-titles-ANAHUAC p:nth-child(2){
     margin-top: 20px;
-    width: 220px;
-    transform: translate(910px, -470px);
     font-size: 20px;
     color: wheat;
 }
 .school-titles-UDLAP p:nth-child(3){
-    margin-top: 20px;
-    transform: translateX(220px);
     color: #ffffff;
     font-size: 18px;
-    width: 350px;
 }
 .school-titles-ANAHUAC p:nth-child(3){
     margin-top: 20px;
-    width: 220px;
-    transform: translate(910px, -470px);
     font-size: 20px;
     color: #ffffff;
 }
+.school-titles-ANAHUAC p:nth-child(1),
+.school-titles-ANAHUAC p:nth-child(2),
+.school-titles-ANAHUAC p:nth-child(3){
+    width: 350px;
+    transform: translate(910px, -470px);
+}
+.school-titles-UDLAP p:nth-child(1),
+.school-titles-UDLAP p:nth-child(2),
+.school-titles-UDLAP p:nth-child(3){
+    width: 350px;
+    transform: translateX(220px);
+}
+
+
 @media(max-width:1000px){
     *{
         box-sizing: border-box;
@@ -575,24 +575,24 @@ footer p{
     .about-header .bg-square{
         left: 20%;
         top: 15%;
-        transform: translate(20%, 15%);
+        transform: translate(10%, 15%);
         height: 420px;
         width: 530px;
     }
     .aboutpage-text {
         left: 20%;
         top: 35%;
-        transform: translate(60%, -35%);
+        transform: translate(45%, -45%);
     }
     .about-works-text{
         left: 42%;
         top: 70%;
-        transform: translate(-12%, -15%);
+        transform: translate(-25%, -50%);
     }
     .kuLogo{
         right:25%;
         top: 60%;
-        transform: translate(20%, -60%);
+        transform: translate(0%, -85%);
     }
     .work-container{
         display: none;
@@ -609,19 +609,31 @@ footer p{
     .school-titles-ANAHUAC p:nth-child(2),
     .school-titles-ANAHUAC p:nth-child(3){
         margin-top: 20px;
-        width: 220px;
-        transform: translate(220px);
+        width: 320px;
+        transform: translate(550px, -460px);
+    }
+    .school-titles-UDLAP p:nth-child(1),
+    .school-titles-UDLAP p:nth-child(2),
+    .school-titles-UDLAP p:nth-child(3){
+        margin-top: 20px;
+        width: 320px;
+        transform: translate(30px);
+    }
+    .school-squaresl{
+        margin-top: 40px;
+        transform: translate(120px)
     }
     .school-squaresr{
         margin-top: 40px;
-        transform: translate(280px)
+        transform: translate(670px, -450px)
     }
     .school-container .text #titles{
-        transform: translate(300px);
+        margin-bottom: 100px;
+        transform: translate(450px);
+        font-size:25px;
+        font-weight: bold;
     }
 
-
-    
 
 }
 @media(max-width:750px){
@@ -696,7 +708,13 @@ footer p{
     nav.active ul{
         display: flex !important;
     }
-    .about-text button{
-        display: none;
+    .about-container{
+        top: 0px;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        padding: 30px 0px;
+        align-items: center;
     }
+
 }
