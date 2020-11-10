@@ -141,11 +141,12 @@ button:active{
     width: 120px;
     height: 40px;
     border-radius: 10px;
-    color: #ffffff;
+    color: #1f1f1f;
     outline: none;
-    border: none;
+    border: #1f1f1f;
     font-family: myriad pro;
-    background-color: #1f1f1f;
+    background-color: darkgray;
+    
 }
 .projects{
     height: 660px;
@@ -656,6 +657,23 @@ article img{
     align-items: center;
     justify-content: center;
     transform: translate(500px);
+}
+.square-contact{
+    height: 250px;
+    width: 420px;
+    display: flex;
+    background-color:rgb(29, 29, 29);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    border-radius: 15%;
+    transform: translateX(500px);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.square-contact ul li{
+    color: wheat;
+    font-size: 20px;
+    margin-top: 10%;
+    font-weight: bolder;
 }
 
 
