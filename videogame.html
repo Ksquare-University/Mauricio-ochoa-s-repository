@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <link rel="shortcut icon" type="image/x-icon" href="images/Mau.ico">
+    <!-----------------------foontawesome for last icons-------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Projects Blog</title>
+    <body>
+        <!------------Navigation------------->
+        <nav>
+            <!----------logo----------------->
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="toggle"></div>
+        </nav>
+        <!--------Body starts here--------->
+        <div class="blog-content">
+            <H1>VIDEO GAME CONSOLE</H1>
+            <article>
+                <div class="article-container">
+                <p>DESCRIPTION</p>
+                <p id="blog-text">
+                    This project uses Raspberry Pi zero W to run an image for video games called Retro-pi. 
+                </p>
+                <p id="blog-text">                
+                    This project is a videogame console that involves 3D printing, electronics and software
+                    skill, and knowledge with Raspberry pi, (at least worked with it before). Also you will need
+                    knowledge of some basic electronics concepts as well as knowledge soldering.
+                </p>
+                <p id="blog-text">                
+                    This project will use a 3D printer, so it is required to have one or contact me if you want to print
+                    own version of the videogame console.<br>
+                    As well, you can use a personalized PCB(printed circuit board) for the controls of the console, however
+                    you can follow this instructions without the PCB however I recommend you to do it or to contact me for one.
+                </p>
+                <img src="images/Raspberryc.png" alt="video game console">
+                </div>
+            </article>
+            <article>
+                <!------Placeholder to fix later-------->
+                <h1></h1>
+                <h1></h1>
+                <h1></h1>
+                <h1></h1>
+                <h1></h1>
+                <!-------------------------------------->
+                <div class="article-container">
+                <p>WHAT IS NEEDED</p>
+                <p id="blog-text">
+                    For this project you will need various things that you can by either on internet or in a hardware store,
+                    for your convinience I will list you the things you need to complete this tutorial.
+                </p>
+                <div id="blog-text">                
+                    <ul>
+                        <li>3D printer</li>
+                        <li>1 - Raspberry Pi Zero W</li>
+                        <li>1 - Micro SD Card</li>
+                        <li>1 - 2.7 inch LCD screen (Adafruit)</li>
+                        <li>Copper wire</li>
+                        <li>1 - Solder gun</li>
+                        <li>Soldering wire</li>
+                        <li>1 - Switch</li>
+                        <li>12 - Push Buttons</li>
+                        <li>1 - 12V Li-On battery</li>
+                        <li>1 - charger module</li>
+                        <li>*(Optional) 1 - Sound module</li>
+                    </ul>  
+                    <p>
+                    You will need all this in order for the console to work, hoever as you will learn you can substitute
+                    some components with others.
+                    </p>
+                </div>
+                </div>
+            </article>
+            <article>
+            <!-------------------------------------->
+                <div class="article-container">
+                <p>WIRING</p>
+                <p id="blog-text">
+                    The wiring can be found in the following button as a gerber file, or as an image so you can follow it to
+                    get it done 
+                </p>
+                <p id="blog-text">                
+                    This is project is a videogame console that involves 3D printing, electronics and software
+                    this project requires skill, and knowledge with Raspberry pi, (at least worked with it before). Also you will need
+                    knowledge of some basic electronics concepts in order to complete it.
+                </p>
+                <div class="blog-button">
+                <button class="down-cv">GERBER</button>
+                <button class="down-cv">JPEG</button>
+                </div>
+                
+                </div>
+            </article>
+            <article>
+                <div class="article-container">
+                <p>RASPBERRY PI BOOT</p>
+                <p id="blog-text">
+                    To boot the image on the SD card you will need the image of Retro-Pi and a rogram called
+                    Etcher to burn it into the card 
+                </p>
+                <p id="blog-text">                
+                    Once you have it installed in the SD card and the Raspberry Pi is properlly connected, you can insert the SD Card
+                    and boot it up for the first time, you will see something like:
+                </p>
+                <img src="images/retropie.png" alt="video game console">
+                </div>
+            </article>
+            <article>
+                <div class="article-container">
+                <p>3D PRINTING</p>
+                <p id="blog-text">
+                    Once everything is done you can print the case for the console or if you already have it just put in place
+                     to get your console up and running.
+                </p>
+                <div class="blog-button">
+                <button class="down-cv">GCode for printing</button>
+                </div>
+                <img src="images/console.png" alt="complete console" >
+                </div>
+            </article>
+         </body>
+    <!--------------Footer--------------------->
+    <footer>
+        <div class= "social-icons">
+            <a href="https://github.com/MauOchoa"><i class="fab fa-github"></i></a>
+            <a href="www.linkedin.com/in/mauricioochoaescandon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p>Contact me in any of the socail media above or send me an email.</p>
+    </footer>
+        <!-----------nav bar jscript---------------->    
+        <script type="text/javascript" src="js/JQuery.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+            })
+        })
+        </script>
+</html>
