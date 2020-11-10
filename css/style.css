@@ -479,12 +479,12 @@ footer p{
     display: flex;
     margin-top: 45px;
     align-items: center;
-    width:222px;
-    height: 222px;
-    border-radius: 50%;
+    width:225px;
+    height: 225px;
+    border-radius: 55%;
     box-shadow: 2px 2px 12px rgba(0,0,0,1);
     background-color: #ffffff;
-    transform: translate(910px, -460px)
+    transform: translate(890px, -460px)
 }
 .school-titles-UDLAP p:nth-child(1){
     color: gold;
@@ -643,13 +643,19 @@ article img{
 
 /*----------------------------------------------*/
 
-
 .titles h1{
     color: gold;
     margin-top: 50px;
     align-items: center;
     justify-items: center;
     transform: translateX(40%);
+}
+.underconstruction{
+    width: 380px;
+    color: gold;
+    align-items: center;
+    justify-content: center;
+    transform: translate(500px);
 }
 
 
