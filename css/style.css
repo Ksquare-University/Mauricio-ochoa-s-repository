@@ -14,7 +14,7 @@ a{
 section{
     width: 100%;
     height: 100vh;
-    background-image: url("../images/bg.png");
+    background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -24,7 +24,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 60 px;
-    background-color: gold;
+    background-color: lightseagreen;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     padding: 0px 5%;
 }
@@ -49,7 +49,7 @@ nav ul li a {
 .text-container p:nth-child(1){
     font-family:calibri;
     font-weight: bold;
-    color: gold;
+    color: #1a8d87;
     font-size: 22px;
 }
 .text-container p:nth-child(2){
@@ -57,7 +57,7 @@ nav ul li a {
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 50px;
-    color: gold;
+    color: lightseagreen;
     line-height: 40px;
 }
 .text-container p:nth-child(3){
@@ -149,14 +149,13 @@ button:active{
     
 }
 .projects{
-    height: 660px;
     background-color: rgb(29, 29, 29);
     padding: 2% 10% 0px 10%;
 }
 .projects-text p:nth-child(1){
     font-family: calibri;
     font-weight: bold;
-    color: gold;
+    color: lightseagreen;
     font-size: 30px;
     line-height: 0px;
 }
@@ -164,11 +163,11 @@ button:active{
     font-family: calibri;
     font-weight: bold;
     color: wheat;
-    font-size: 15px;
-    line-height: 5px;
+    font-size: 23px;
+    line-height: 30px;
 }
 .projects-text{
-    width: 500px;
+    width: 100%px;
     margin: 50px 0px;
 }
 .box-1, .box-2, .box-3{
@@ -288,7 +287,6 @@ footer{
 .social-icons i{
     color: #f2f0c9;
 }
-
 footer p{
     color: #1f1f1f;
     font-size: 18px;
@@ -297,7 +295,7 @@ footer p{
 .projects-title p:nth-child(1){
     font-family: calibri;
     font-weight: bold;
-    color: gold;
+    color: lightseagreen;
     font-size: 40px;
     line-height: 0px;
 }
@@ -331,7 +329,7 @@ footer p{
 }
 .aboutpage-text p:nth-child(1){
     font-size: 24px;
-    color: gold;
+    color: lightseagreen;
     font-weight: bold;
 }
 .aboutpage-text p:nth-child(2){
@@ -364,7 +362,7 @@ footer p{
 .experience-titles h1{
     align-items: center;
     justify-content: center;
-    color: gold;
+    color: lightseagreen;
     transform: translateX(40%);
     margin-top: 30x ;
 }
@@ -398,7 +396,7 @@ footer p{
     transform: translate(-10%, 10%);   
 }
 .about-othersl .titles p:nth-child(1){
-    color: rgb(68, 106, 189);
+    color: lightseagreen;
     width: 120px;
     font-weight: bold;
     font-size: 24px;
@@ -423,7 +421,7 @@ footer p{
     transform: translate(0%, 10%);   
 }
 .about-othersr .titles p:nth-child(1){
-    color: rgb(68, 106, 189);
+    color: lightseagreen;
     width: 120px;
     font-weight: bold;
     font-size: 24px;
@@ -441,6 +439,9 @@ footer p{
     color: #ffffff;
     font-size: 20px;
     transform: translate(-1%, 10%);
+}
+.about-section section{
+    background-image: none;
 }
 .work-container{
     display: flex;
@@ -533,14 +534,17 @@ footer p{
 /*----------------Projects template---------------*/
 article{
     display: grid;
-    height: 100vh;
+    height: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
 }
 article *{
     grid-column: 2 / 4;
-      
+}
+article{
+    padding-bottom: 5%;
+    
 }
 article p{
     width: 100%;
@@ -550,7 +554,7 @@ article p{
 article p:nth-child(1){
     font-size: 25px;
     font-weight: bold;
-    color: orange;
+    color: rgb(247, 206, 130);
 }
 article #blog-text{
     width: 100%;
@@ -560,12 +564,13 @@ article #blog-text{
 article img{
     width: 550px;
     height: 380px;
+    border-radius: 10%;
     transform: translateX(5%);
 }
 .blog-content h1{
     width: 500px;
     transform: translateX(35%);
-    color: gold;
+    color: lightseagreen;
     height: 100%;
 }
 #blog-text ul li{
@@ -588,6 +593,7 @@ article img{
     justify-content: center;
     transform: translateX(190px);
 }
+
 
 /*------------------CAROUSEL----------------------*/
   
@@ -643,15 +649,15 @@ article img{
     animation-delay: 8s;
   }
 
-/*----------------------------------------------*/
-
 .titles h1{
-    color: gold;
+    color: lightseagreen;
     margin-top: 50px;
     align-items: center;
     justify-items: center;
     transform: translateX(40%);
 }
+
+/*-----------------Under construction--------------------*/
 .underconstruction{
     width: 380px;
     color: gold;
@@ -660,7 +666,7 @@ article img{
     transform: translate(500px);
 }
 .square-contact{
-    height: 250px;
+    height: 300px;
     width: 420px;
     display: flex;
     background-color:rgb(29, 29, 29);
