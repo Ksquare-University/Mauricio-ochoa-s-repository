@@ -440,9 +440,6 @@ footer p{
     font-size: 20px;
     transform: translate(-1%, 10%);
 }
-.about-section section{
-    background-image: none;
-}
 .work-container{
     display: flex;
     margin: 5% auto 20px auto;
@@ -651,10 +648,10 @@ article img{
 
 .titles h1{
     color: lightseagreen;
-    margin-top: 50px;
+    margin-top: px;
     align-items: center;
     justify-items: center;
-    transform: translateX(40%);
+    transform: translateX(45%);
 }
 
 /*-----------------Under construction--------------------*/
@@ -666,7 +663,7 @@ article img{
     transform: translate(500px);
 }
 .square-contact{
-    height: 300px;
+    height: 350px;
     width: 420px;
     display: flex;
     background-color:rgb(29, 29, 29);
@@ -675,11 +672,12 @@ article img{
     transform: translateX(500px);
     margin-top: 5%;
     margin-bottom: 5%;
+    align-items: center;
 }
 .square-contact ul li{
     color: wheat;
     font-size: 20px;
-    margin-top: 10%;
+    margin-top: 5%;
     font-weight: bolder;
 }
 
